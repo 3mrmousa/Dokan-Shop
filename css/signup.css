@@ -1,0 +1,15 @@
+.signup-form .content {
+  border-right: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
+}
+
+.signup-form .content label {
+  font-weight: bold;
+  color: rgb(70, 68, 68);
+}
+
+.signup-form .content input {
+  border: 1px solid #ccc;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+}

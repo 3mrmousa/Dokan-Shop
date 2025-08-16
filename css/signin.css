@@ -1,0 +1,25 @@
+.login-form {
+  height: 100vh;
+}
+
+.login-form .content {
+  border-right: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
+}
+
+.login-form .content form button {
+  background-color: green;
+}
+
+.login-form .content .signin-methods button:first-child {
+  background-color: blue;
+}
+
+.login-form .content form .remember-me #remember {
+  width: 15px;
+  height: 20px;
+}
+
+.login-form .content .signup-button {
+  background-color: blue;
+}

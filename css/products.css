@@ -1,0 +1,79 @@
+/* Poster start */
+.poster-img-section {
+  height: 65vh;
+  width: 100%;
+  background: url("images/MenPage/products-background.jpg")
+    rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: overlay;
+}
+.poster-img-section .text h2 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+/* Poster end */
+
+/* Products Section Start */
+
+.cards-section .card {
+  padding: 1rem;
+  max-width: 75%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cards-section .card:hover {
+  transform: scale(1.05);
+  background-color: rgb(73, 72, 72);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-style{
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: gray;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.hidden-checkbox-1 {
+  display: none;
+}
+
+.hidden-checkbox-2 {
+  display: none;
+}
+
+.latest-products .loaded-row-1 {
+  display: none;
+}
+
+.latest-products .loaded-row-2 {
+  display: none;
+}
+
+.hidden-checkbox-1:checked ~ .loaded-row-1 {
+  display: flex;
+}
+
+.latest-products .btn-2 {
+  display: none;
+}
+
+.hidden-checkbox-1:checked ~ .btn-2 {
+  display: block;
+}
+
+.hidden-checkbox-2:checked ~ .loaded-row-2 {
+  display: flex;
+}
+
+
+/* Products Section End */
