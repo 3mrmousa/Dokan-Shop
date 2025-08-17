@@ -2,7 +2,7 @@
 .poster-img-section {
   height: 65vh;
   width: 100%;
-  background: url("images/MenPage/products-background.jpg")
+  background: url("../images/MenPage/products-background.jpg")
     rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: top;
@@ -35,7 +35,7 @@
   justify-content: space-between;
 }
 
-.btn-style{
+.btn-style {
   text-align: center;
   padding: 0.5rem 1rem;
   background-color: gray;
@@ -74,6 +74,5 @@
 .hidden-checkbox-2:checked ~ .loaded-row-2 {
   display: flex;
 }
-
 
 /* Products Section End */
