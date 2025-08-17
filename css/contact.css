@@ -2,7 +2,7 @@
 .contact-img-section {
   height: 65vh;
   width: 100%;
-  background-image: url(images/AboutPage/about-us-page-heading.jpg);
+  background-image: url(../images/Contact-About/about-us-page-heading.jpg);
 }
 .contact-img-section .text h2 {
   font-size: 3rem;

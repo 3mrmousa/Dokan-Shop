@@ -9,6 +9,7 @@ body {
 }
 
 .myP {
+  color: rgb(81, 80, 80);
   letter-spacing: 0.2rem;
 }
 
@@ -90,7 +91,7 @@ body {
 /* Start video section */
 
 .video-section .content .text h2 {
-  font-size: 3.2rem;
+  font-size: 2rem;
   letter-spacing: 0.3rem;
 }
 

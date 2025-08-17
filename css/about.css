@@ -1,0 +1,49 @@
+/* about poster start */
+.about-img-section {
+  height: 65vh;
+  width: 100%;
+  background-image: url(../images/Contact-About/about-us-page-heading.jpg);
+}
+
+.about-img-section .text h2 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+/* about poster end */
+
+/* About Us Section Start */
+.about-us-section .right-content p {
+  color: gray;
+}
+
+@media (min-width: 992px) {
+  .about-us-section .right-content {
+    width: 50%;
+  }
+}
+
+.about-us-section .right-content hr {
+  width: 50%;
+  border: 1px solid rgb(0, 0, 0);
+}
+/* About Us Section End */
+
+/* Our Team Section Start */
+.our-team-section img {
+  max-width: 100%;
+}
+/* Our Team Section End */
+
+/* Our Services Section Start */
+.our-services-section .card {
+    border-left: 3px solid #ccc;
+    border-top: 3px solid #ccc;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    padding: 1.5rem;
+}
+
+.our-services-section img {
+  max-width: 100%;
+}
+/* Our Services Section End */
