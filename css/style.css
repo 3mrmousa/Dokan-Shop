@@ -95,8 +95,11 @@ body {
   letter-spacing: 0.3rem;
 }
 
-.video-section .content video {
-  width: 85%;
+
+@media (min-width: 1024px) {
+  .video-section .content video {
+    width: 65% !important;
+  }
 }
 
 /* End video section */
